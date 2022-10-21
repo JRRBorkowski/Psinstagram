@@ -1,6 +1,6 @@
-<div>
-    <p>Please select your dog:</p>
-    <select (change)="onDogSelection($event)">
+<div class="list">
+    <p class="dogs-question">Please select your dog:</p>
+    <select (change)="onDogSelection($event)" id="dogs-select">
         <option></option>
         <option *ngFor="let singleDog of allDogs | async">{{singleDog}}</option>
     </select>

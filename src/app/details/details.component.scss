@@ -1,0 +1,16 @@
+.details {
+    // border: 0.2em solid black;
+    padding: 0.3em;
+    font-size: 3em;
+    display: flex;
+    flex-flow: column;
+    .dogName{
+        text-transform: capitalize;
+    }
+}
+
+.link {
+    a{
+    text-decoration: none;
+}
+}

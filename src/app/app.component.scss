@@ -1,4 +1,13 @@
-div {
+
+
+.main-wrap {
+    border-top: 0.5em solid rgb(184, 32, 32);
     display: flex;
-    margin: 30px;
+    justify-content: space-evenly;
+    padding: 1rem;
+    align-content: stretch;
+}
+
+.title {
+    font-size: 4em;
 }

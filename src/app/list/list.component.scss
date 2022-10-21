@@ -1,0 +1,14 @@
+.list {
+    border: 0.2em solid black;
+    padding: 0.5em;
+    font-size: 3em;
+    display: flex;
+    flex-flow: column;
+}
+
+#dogs-select {
+    font-size: 0.5em;
+    padding: 0.5em;
+    min-width: 60px;
+    text-transform: capitalize;
+}

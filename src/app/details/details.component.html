@@ -1,3 +1,5 @@
-<h2>{{appService.selectedDog}}</h2>
+<div class="details">
+    <h2 class="dogName">{{appService.selectedDog}}</h2>
 <!-- <div><img src="{{appService.getSelectedDogImage(appService.selectedDog) | async}}" alt="{{selectedDog}}"></div> -->
-<div *ngIf="appService.selectedDog"><span>Poczytaj więcej o tej rasie na wikipedii: </span> <a href="https://en.wikipedia.org/wiki/{{appService.selectedDog}}">{{appService.selectedDog}}</a></div>
+    <div *ngIf="appService.selectedDog" class="link"><span>Poczytaj więcej o tej rasie na wikipedii: </span> <a href="https://en.wikipedia.org/wiki/{{appService.selectedDog}}">{{appService.selectedDog}}</a></div>
+</div>
